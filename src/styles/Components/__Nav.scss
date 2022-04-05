@@ -1,0 +1,54 @@
+.nav,
+.nav-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    min-width: 20%;
+    position: fixed;
+    margin: auto;
+    z-index: 1;
+    height: 100vh;
+}
+
+.nav-ul {
+    justify-content: space-around;
+    min-height: 50vh;
+    width: 70%;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 40%;
+}
+
+.nav-ul--focus{
+    opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+
+}
+
+.nav-ul--not-focus{
+    opacity: 0;
+    pointer-events: none;
+    cursor: none;
+    transform: translateY(-15vh);
+}
+
+.nav-item {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.nav-logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+}
