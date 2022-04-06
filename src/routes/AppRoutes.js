@@ -14,11 +14,11 @@ function AppRoutes() {
             <div className='container'>
                 <Nav />
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/aboutme" element={<AboutMe />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/proyects" element={<Proyects />} />
-                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/jaimejb" element={<Home />} />
+                    <Route path="/jaimejb/aboutme" element={<AboutMe />} />
+                    <Route path="/jaimejb/contact" element={<Contact />} />
+                    <Route path="/jaimejb/proyects" element={<Proyects />} />
+                    <Route path="/jaimejb/skills" element={<Skills />} />
                 </Routes>
             </div>
         </BrowserRouter>)

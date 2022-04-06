@@ -14,13 +14,13 @@ function Nav() {
         <nav className="nav">
             <div className='nav-logo'>
                 <NavBtn/>
-                <Link className='nav-item logo' to="/"><h1 className='text-shadow'>{'<Jaime JB/>'}</h1></Link>
+                <Link className='nav-item logo' to="/jaimejb"><h1 className='text-shadow'>{'<Jaime JB/>'}</h1></Link>
             </div>
             <ul className='nav-ul nav-ul--focus'>
-                <Link className='nav-item btn btn-primary text-shadow' to="/aboutme">Sobre mí</Link>
-                <Link className='nav-item btn btn-primary text-shadow' to="/proyects">Proyectos</Link>
-                <Link className='nav-item btn btn-primary text-shadow' to="/skills">Skills</Link>
-                <Link className='nav-item btn btn-primary text-shadow' to="/contact">Contáctame</Link>
+                <Link className='nav-item btn btn-primary text-shadow' to="/jaimejb/aboutme">Sobre mí</Link>
+                <Link className='nav-item btn btn-primary text-shadow' to="/jaimejb/proyects">Proyectos</Link>
+                <Link className='nav-item btn btn-primary text-shadow' to="/jaimejb/skills">Skills</Link>
+                <Link className='nav-item btn btn-primary text-shadow' to="/jaimejb/contact">Contáctame</Link>
             </ul>
         </nav>
     );
