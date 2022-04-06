@@ -1,13 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.00cfb285.css",
-    "main.js": "/static/js/main.b4a4e823.js",
+    "main.js": "/static/js/main.24fe2494.js",
+    "static/media/reloj.webm": "/static/media/reloj.b8cdbbc6808208f27e8c.webm",
+    "static/media/coding.webm": "/static/media/coding.6c2b9a2cf22da2e7c1b0.webm",
+    "static/media/jaime.jpg": "/static/media/jaime.ed008295e8f6f04b4016.jpg",
+    "static/media/perros.png": "/static/media/perros.4d4da32d37f39111a1a6.png",
+    "static/media/marvelApp.png": "/static/media/marvelApp.a7d03a8985f9fc1de10f.png",
+    "static/media/mouse-escape.png": "/static/media/mouse-escape.08f329a2a87d47d728d8.png",
+    "static/media/f1App.png": "/static/media/f1App.6f5fb708ae6bfb918a29.png",
+    "static/media/teclado.jpg": "/static/media/teclado.34700dad92e44a7b8ba3.jpg",
+    "static/media/tyre.jpg": "/static/media/tyre.e607897866f74b48c5f7.jpg",
+    "static/media/pc-thinking.png": "/static/media/pc-thinking.24d74236387f92035acb.png",
+    "static/media/pc-thinking-movil.png": "/static/media/pc-thinking-movil.05b428b9a214713fe23e.png",
+    "static/media/cv.pdf": "/static/media/cv.01f3aed3b0b242c1bf66.pdf",
     "index.html": "/index.html",
     "main.00cfb285.css.map": "/static/css/main.00cfb285.css.map",
-    "main.b4a4e823.js.map": "/static/js/main.b4a4e823.js.map"
+    "main.24fe2494.js.map": "/static/js/main.24fe2494.js.map"
   },
   "entrypoints": [
     "static/css/main.00cfb285.css",
-    "static/js/main.b4a4e823.js"
+    "static/js/main.24fe2494.js"
   ]
 }
