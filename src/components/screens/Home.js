@@ -8,11 +8,13 @@ function Home() {
     gsapHome();
   }, []);
 
+  const img = require.context('../../assets/img', true);
+
   return (
     <div className="home">
       <picture className="home-img">
-        <source srcSet='/assets/pc-thinking-movil.png' media='(max-width: 1080px) and (orientation: portrait)' />
-        <img src="/assets/pc-thinking.png" alt='pc-thinking' />
+        <source srcSet={img('./pc-thinking-movil.png')} media='(max-width: 1080px) and (orientation: portrait)' />
+        <img src={img('./pc-thinking.png')} alt='pc-thinking' />
       </picture>
 
       <footer className="home-footer">

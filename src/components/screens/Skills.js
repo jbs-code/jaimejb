@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { gsapCard } from '../../scripts/gsapEffects';
 
@@ -9,7 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Skills() {
     useEffect(() => {
         gsapCard();
-      }, []);
+    }, []);
+
+    const doc = require.context('../../assets/docs', true);
+
 
     return (
         <div className='skills'>
@@ -25,7 +28,7 @@ function Skills() {
                     <FontAwesomeIcon icon={brands('css3')} className='skills-icon css3' />
                     <FontAwesomeIcon icon={brands('sass')} className='skills-icon sass' />
                 </section>
-                <a href='/assets/docs/cv.pdf' target='_blank' rel='noopener noreferrer' className='btn btn-primary text-shadow btn-shadow mt-2'>Descarga mi currículum</a>
+                <a href={doc('./cv.pdf')} target='_blank' rel='noopener noreferrer' className='btn btn-primary text-shadow btn-shadow mt-2'>Descarga mi currículum</a>
             </div>
         </div>
     )
