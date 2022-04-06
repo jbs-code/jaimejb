@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { sendEmail } from '../../helpers/sendEmail';
 import useForm from '../../hooks/useForm';
 import validator from 'validator';
-import { gsapCard } from '../../scripts/gsapEffects';
+import { gsapFormContact } from '../../scripts/gsapEffects';
 
 function Contact() {
   //clásica implementación de hook useForm.
@@ -58,7 +58,7 @@ function Contact() {
   }
 
   useEffect(() => {
-    gsapCard();
+    gsapFormContact();
   }, []);
 
   return (

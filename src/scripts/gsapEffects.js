@@ -23,4 +23,9 @@ export const gsapCard = () => {
     tl.fromTo(".card-container__img", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.5");
 }
 
+export const gsapFormContact = () => {
+    const tl = gsap.timeline();
+    tl.fromTo(".card", { opacity: 0, x: 200 }, { opacity: 1, x: 0, duration: 1 });
+}
+
 
