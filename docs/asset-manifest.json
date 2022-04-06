@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.00cfb285.css",
-    "main.js": "/static/js/main.24fe2494.js",
+    "main.js": "/static/js/main.b66eeeea.js",
     "static/media/reloj.webm": "/static/media/reloj.b8cdbbc6808208f27e8c.webm",
     "static/media/coding.webm": "/static/media/coding.6c2b9a2cf22da2e7c1b0.webm",
     "static/media/jaime.jpg": "/static/media/jaime.ed008295e8f6f04b4016.jpg",
@@ -16,10 +16,10 @@
     "static/media/cv.pdf": "/static/media/cv.01f3aed3b0b242c1bf66.pdf",
     "index.html": "/index.html",
     "main.00cfb285.css.map": "/static/css/main.00cfb285.css.map",
-    "main.24fe2494.js.map": "/static/js/main.24fe2494.js.map"
+    "main.b66eeeea.js.map": "/static/js/main.b66eeeea.js.map"
   },
   "entrypoints": [
     "static/css/main.00cfb285.css",
-    "static/js/main.24fe2494.js"
+    "static/js/main.b66eeeea.js"
   ]
 }
