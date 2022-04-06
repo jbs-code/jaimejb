@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { gsapHome } from '../../scripts/gsapEffects';
 
+const img = require.context('../../assets/img');
+
 function Home() {
   useEffect(() => {
     gsapHome();
   }, []);
-
-  const img = require.context('../../assets/img', true);
 
   return (
     <div className="home">

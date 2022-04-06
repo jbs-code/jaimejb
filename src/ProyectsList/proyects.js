@@ -1,5 +1,5 @@
 
-const img = require.context('../assets/img', true);
+const img = require.context('../assets/img');
 
 export const proyects = {
     proyectsArray: [

@@ -6,13 +6,12 @@ import { gsapCard } from '../../scripts/gsapEffects';
 //conocer la implementación a través de babel.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+const doc = require.context('../../assets/docs');
+
 function Skills() {
     useEffect(() => {
         gsapCard();
     }, []);
-
-    const doc = require.context('../../assets/docs', true);
-
 
     return (
         <div className='skills'>

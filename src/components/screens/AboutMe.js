@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { gsapCard } from '../../scripts/gsapEffects';
 
+const img = require.context('../../assets/');
+
 function AboutMe() {
   useEffect(() => {
     gsapCard();
   }, []);
-
-  const img = require.context('../../assets/', true);
 
   return (
     <div className='about-me'>
