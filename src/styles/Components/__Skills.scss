@@ -8,38 +8,63 @@
     min-width: 90%;
 }
 
-.skills-icon{
+.skills-icon {
     font-size: 5rem;
-    width: 25%;
+    width: 90%;
     text-align: center;
+    transition: all 0.5s ease;
+}
+
+.card-item {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &:hover .skills-icon {
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+
+    &:hover .card-item__name {
+        opacity: 1;
+    }
 }
 
-.js{
-    color: yellow;
+.card-item__name {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.5s ease;
 }
 
-.git{
+.js {
+    color: rgb(252, 238, 49);
+}
+
+.git {
     color: orange;
 }
 
-.node{
-    color: greenyellow;
+.npm {
+    color: rgb(197, 30, 57);
 }
 
-.react{
+.react {
     color: aqua;
 }
 
-.html5{
+.html5 {
     color: orangered;
 }
 
-.css3{
+.css3 {
     color: rgb(16, 117, 212);
 }
 
-.sass{
+.sass {
     color: magenta;
 }

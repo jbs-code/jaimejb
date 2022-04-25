@@ -7,6 +7,8 @@ import Home from '../components/screens/Home';
 import Proyects from '../components/screens/Proyects';
 import Skills from '../components/screens/Skills';
 
+//El path en las rutas lo cambié únicamente para que funcione en github pages.
+//Lo mismo pasa en cada Link de la nav.
 function AppRoutes() {
     
     return (
@@ -14,11 +16,12 @@ function AppRoutes() {
             <div className='container'>
                 <Nav />
                 <Routes>
-                    <Route path="/jaimejb" element={<Home />} />
-                    <Route path="/jaimejb/aboutme" element={<AboutMe />} />
-                    <Route path="/jaimejb/contact" element={<Contact />} />
-                    <Route path="/jaimejb/proyects" element={<Proyects />} />
-                    <Route path="/jaimejb/skills" element={<Skills />} />
+                    <Route path='/' element={<Home />} />
+                    <Route path="aboutme" element={<AboutMe />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="proyects" element={<Proyects />} />
+                    <Route path="skills" element={<Skills />} />
+                    <Route path="*" element={<Home />} />
                 </Routes>
             </div>
         </BrowserRouter>)

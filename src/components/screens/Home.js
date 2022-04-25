@@ -18,7 +18,7 @@ function Home() {
       </picture>
 
       <footer className="home-footer">
-        <span>{"<Jaime JB/>"}</span>
+        <span>{"< Jaime JB />"}</span>
         <span>Puedes mandarme un mensaje en la parte de contacto o por mis redes.</span>
         <div>
           <a
