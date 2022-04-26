@@ -16,7 +16,7 @@ function AboutMe() {
         <div className='card-container__img'>
           <img src={img('./img/jaime.jpg')} alt='Foto de Jaime' />
         </div>
-        <p className='card-p--border-r'><span>Hola, soy Jaime.</span>Te voy a contar un poco sobre mí. Crecí en una comunidad rural en donde he aprendido a apreciar el silencio y la tranquilidad que no te da la urbe. Me gusta estar en casa con mi familia; ir los fines de semana al tianguis y comprar el mandado de la semana; saludar a uno que otro amigo que me encuentro en el camino; a quienes les tengo mucho cariño porque crecí con ellos. Es una ventaja de haber crecido en un pueblo donde formas y conservas a tus amistades desde la infancia.</p>
+        <p className='card-p--border-r'><span>Hola, soy Jaime.</span>Te voy a contar un poco sobre mí. Crecí en una comunidad rural en donde he aprendido a apreciar el silencio y la tranquilidad que no te da la urbe. Me gusta estar en casa con mi familia; ir los fines de semana al tianguis y comprar el mandado de la semana; saludar a uno que otro amigo que me encuentro en el camino, a quienes les tengo mucho cariño porque crecí con ellos. Es una ventaja de haber crecido en un pueblo donde formas y conservas a tus amistades desde la infancia.</p>
       </article>
 
       <article className='card'>
@@ -27,7 +27,7 @@ function AboutMe() {
       </article>
 
       <article className='card'>
-        <p className='card-p--alone'>Te he contado de mis amigos, pero he de confesar que tengo pocos; suelo ser muy reservado y me cuesta trabajo entablar conversación, aunque soy muy bueno escuchando. Es una de las virtudes que mis conocidos destacan de mí, soy el confidente de muchos porque saben que no diré nada. Tal vez no tenga un buen consejo que dar, pero con solo escuchar parece que ayudo para el desahogo y tranquilidad de mis amigos.</p>
+        <p className='card-p--alone'>Te conté sobre mis amigos, pero he de confesar que tengo pocos. Suelo ser muy reservado y me cuesta trabajo entablar conversación, aunque soy muy bueno escuchando. Es una de las virtudes que mis conocidos destacan de mí, soy el confidente de muchos porque saben de mi gran discreción. Tal vez no tenga un buen consejo que dar, pero con solo escuchar parece que ayudo para el desahogo y tranquilidad de mis amigos.</p>
       </article>
 
       <article className='card'>
