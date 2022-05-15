@@ -6,7 +6,7 @@
 }
 
 .nav {
-    min-width: 20%;
+    // min-width: 20%;
     position: fixed;
     margin: auto;
     z-index: 1;
@@ -16,7 +16,7 @@
 .nav-ul {
     justify-content: space-around;
     min-height: 50vh;
-    width: 70%;
+    width: 100%;
     transition: all 0.5s ease;
     position: absolute;
     top: 40%;
