@@ -10,11 +10,11 @@ import Skills from '../components/screens/Skills';
 //El path en las rutas lo cambié únicamente para que funcione en github pages.
 //Lo mismo pasa en cada Link de la nav.
 function AppRoutes() {
-    
+
     return (
         <BrowserRouter >
-            <div className='container'>
-                <Nav />
+            <Nav />
+            <div className='container-2'>
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path="aboutme" element={<AboutMe />} />

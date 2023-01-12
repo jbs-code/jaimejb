@@ -1,6 +1,16 @@
 @media screen and (max-width: 1080px) {
     .container {
+        flex-wrap: wrap;
+    }
+
+    .container-2{
+        width: 90%;
+        padding: 0px;
+    }
+
+    .nav-container{
         width: 100%;
+        height: 10vh;
     }
 
     .nav__bars-menu {
@@ -8,8 +18,8 @@
     }
 
     .nav {
-        height: 10vh;
-        width: 100%;
+        height: inherit;
+        width: inherit;
         align-items: flex-start;
         justify-content: center;
         background-color: darken($color: $color-primary, $amount: 10);
@@ -36,8 +46,7 @@
     .skills,
     .contact {
         width: 100%;
-        margin: 0px 10px 0px 10px;
-        margin-top: 11vh;
+        align-items: center;
     }
     
     .text-shadow{
@@ -46,6 +55,7 @@
 }
 
 @media screen and (max-width: 640px) {
+   
     .nav-ul {
         width: 50%;
     }
@@ -72,19 +82,16 @@
 }
 
 @media screen and (max-height: 640px) and (max-width: 1080px) and (orientation: landscape){
+    
     .nav{
         height: 13vh;
     }
 
-    .nav-ul{
-        top: 13vh;
+    .nav-container{
+        margin-bottom: 10px;
     }
 
-    .home,
-    .about-me,
-    .proyects,
-    .skills,
-    .contact {
-        margin-top: 14vh;
+    .nav-ul{
+        top: 13vh;
     }
 }

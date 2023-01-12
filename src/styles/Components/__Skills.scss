@@ -1,5 +1,4 @@
 .skills {
-    margin-left: 23%;
     margin-top: 20px;
     min-height: 80vh;
 }
@@ -39,6 +38,7 @@
     transform: translateY(-50%);
     opacity: 0;
     transition: all 0.5s ease;
+    text-align: center;
 }
 
 .js {
@@ -49,8 +49,8 @@
     color: orange;
 }
 
-.npm {
-    color: rgb(197, 30, 57);
+.database {
+    color: rgb(29, 27, 136);
 }
 
 .react {
@@ -67,4 +67,12 @@
 
 .sass {
     color: magenta;
+}
+
+.node {
+    color: rgb(95, 197, 0);
+}
+
+.express {
+    color: rgb(109, 109, 109);
 }
