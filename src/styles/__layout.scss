@@ -1,3 +1,10 @@
+
+body, html{
+    font-family: 'Fredoka', sans-serif;
+    background: radial-gradient(circle, rgba(14,82,53,1) 0%, rgba(46,55,51,1) 100%); 
+    // background: radial-gradient(circle, rgba(27,41,124,1) 0%, rgba(16,25,75,1) 100%);    
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -11,9 +18,4 @@
     padding: 0px 20px;
 }
 
-body, html{
-    font-family: 'Fredoka', sans-serif;
-    background: radial-gradient(circle, rgba(14,82,53,1) 0%, rgba(46,55,51,1) 100%); 
-    // background: radial-gradient(circle, rgba(27,41,124,1) 0%, rgba(16,25,75,1) 100%);    
-}
 

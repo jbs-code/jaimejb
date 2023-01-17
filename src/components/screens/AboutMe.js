@@ -20,7 +20,7 @@ function AboutMe() {
       </article>
 
       <article className='card'>
-        <p className='card-p--border-l'>Me gusta por las mañanas salir a caminar con mis perros y disfrutar del paisaje y las diferentes vistas que me da cada estación del año (Aquí Jaime del futuro, actualmente solo me acompaña Yogui, Max, el pastor que sale en la foto, falleció en mayo del año pasado y quise hacer esta actualización en su memoria).</p>
+        <p className='card-p--border-l'>Me gusta por las mañanas salir a caminar con mis perros y disfrutar del paisaje y las diferentes vistas que me da cada estación del año (Aquí Jaime del futuro, actualmente solo me acompaña Yogui. Max, el pastor que sale en la foto, falleció en mayo del año pasado y quise hacer esta actualización en su memoria).</p>
         <div className='card-container__img'>
           <img src={img('./img/perros.png')} alt='Foto de perros' />
         </div>
@@ -56,7 +56,7 @@ function AboutMe() {
       </article>
 
       <article className='card mb-3'>
-        <p className='card-p--alone'>Ojalá esto que acabo de escribir sirva para conocerme un poco mejor y gracias por llegar hasta aquí y mostrar interés de conocer un poco más sobre mi lado personal.</p>
+        <p className='card-p--alone'>Ojalá esto que acabo de escribir sirva para conocerme un poco mejor; gracias por llegar hasta aquí y mostrar interés en conocer un poco más sobre mi lado personal.</p>
       </article>
 
     </div>

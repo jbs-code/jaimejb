@@ -31,7 +31,7 @@ export const proyects = {
             id: '03',
             name: 'Mejico',
             url: 'https://mejico.jaimejb.com/',
-            description: 'Esta aplicación simula el menú para un restaurante mexicano; además, consume la API-Mejico que también es de mi autoría. Dado que la API está en un host con restricciones, es posible que esta aplicacion no funcione correctamente.',
+            description: 'Esta aplicación simula el menú para un restaurante mexicano; además, consume la API-Mejico que también yo desarrollé. Dado que la API está en un host con limitaciones, es posible que esta aplicación no funcione correctamente.',
             path: img('./mejicoApp.png')
         },
 
@@ -39,7 +39,7 @@ export const proyects = {
             id: '04',
             name: 'API-Mejico',
             url: 'https://api-mejico.jaimejb.com/',
-            description: 'Esta es una API que desarrollé con Node, Express y MongoDB. Guarda diferentes platillos que se podrían encontrar en algún restaurante mexicano. Las diferentes formas de consultar esos platillos es a través de los endpoints que se describen. Esta aplicación está en un host con restricciones y no está en linea permanentemente, así que es posible que no esté disponible.',
+            description: 'Esta es una API que desarrollé con Node, Express y MongoDB. Guarda diferentes platillos que se podrían encontrar en algún restaurante mexicano. Las diferentes formas de consultar esos platillos es a través de los endpoints que se describen en el home de la API. Esta aplicación está en un host con restricciones y no está en linea permanentemente, así que es posible que no esté disponible.',
             path: img('./api-mejico.png')
         }
     ]

@@ -23,7 +23,7 @@ function Nav() {
                     <Link className='nav-item btn btn-primary text-shadow' to="skills">Skills</Link>
                     <Link className='nav-item btn btn-primary text-shadow' to="contact">Contáctame</Link>
                 </ul>
-            </nav>
+           </nav>
         </div>
     );
 }
