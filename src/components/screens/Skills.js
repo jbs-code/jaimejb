@@ -50,13 +50,25 @@ function Skills() {
                         <FontAwesomeIcon icon={brands('node')} className='skills-icon node' />
                         <div className='card-item__name'><span>Node.js</span></div>
                     </div>
-                    <div className='card-item'>
+                    {/* <div className='card-item'>
                         <FontAwesomeIcon icon={solid('server')} className='skills-icon express' />
                         <div className='card-item__name'><span>Express</span></div>
+                    </div> */}
+                    <div className='card-item'>
+                        <FontAwesomeIcon icon={solid('leaf')} className='skills-icon mongo' />
+                        <div className='card-item__name'><span>MongoDB / Mongoose</span></div>
                     </div>
                     <div className='card-item'>
-                        <FontAwesomeIcon icon={solid('database')} className='skills-icon database' />
-                        <div className='card-item__name'><span>MongoDB / MySQL</span></div>
+                        <div className='skills-icon skills-icon--default typescript'>
+                            <h4 className='skills-icons__name'>TS</h4>
+                        </div>
+                        <div className='card-item__name'><span>TypeScript</span></div>
+                    </div>
+                    <div className='card-item'>
+                        <div className='skills-icon skills-icon--default express'>
+                            <h4 className='skills-icons__name'>Ex</h4>
+                        </div>
+                        <div className='card-item__name'><span>Express</span></div>
                     </div>
                 </section>
                 <a href={doc('./cv.pdf')} target='_blank' rel='noopener noreferrer' className='btn btn-primary text-shadow mt-2'>Descarga mi CV</a>

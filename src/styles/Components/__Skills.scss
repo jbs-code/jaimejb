@@ -14,6 +14,20 @@
     transition: all 0.5s ease;
 }
 
+.skills-icon--default{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    .skills-icons__name{
+        font-size: 2.5rem;
+        text-shadow: 2px 2px rgba($color: #000000, $alpha: 0.3);
+    }
+}
+
 .card-item {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -21,7 +35,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-
     &:hover .skills-icon {
         transform: rotateY(180deg);
         opacity: 0;
@@ -49,8 +62,8 @@
     color: orange;
 }
 
-.database {
-    color: rgb(29, 27, 136);
+.mongo {
+    color: rgb(4, 141, 11);
 }
 
 .react {
@@ -74,5 +87,11 @@
 }
 
 .express {
-    color: rgb(109, 109, 109);
+    color: white;
+    background-color: rgb(185, 185, 185);
+}
+
+.typescript{
+    color: white;
+    background-color: rgb(58, 77, 245);
 }

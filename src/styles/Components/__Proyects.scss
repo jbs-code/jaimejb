@@ -2,3 +2,51 @@
     min-height: 80vh;
     margin-top: 20px;
 }
+
+.proyects-img{
+    
+    &:hover .proyects-img--shadow{
+        opacity: 1;
+        top: 40%;
+        pointer-events: all;
+    }
+
+    &:hover .proyects-img__container img{
+        transform: translateY(100%);
+    }
+}
+
+.proyects-img__container{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+    img{
+        transition: all 0.5s ease;
+    }
+}
+
+.proyects-img--shadow{
+    opacity: 0;
+    top:100%;
+    pointer-events: none;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    background: rgba($color: #000000, $alpha: 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease;
+    border: 3px solid $color-primary;
+    border-bottom: none;
+    border-radius: 3px;
+
+    a{
+        color: white;
+        font-size: 1.2rem;
+        text-shadow: 2px 2px rgba($color: #000000, $alpha: 0.5);
+    }
+}

@@ -20,7 +20,8 @@ function Proyects() {
         <CardProyects
           key={proyect.id}
           name={proyect.name}
-          url={proyect.url}
+          urlSite={proyect.urlSite}
+          urlCode={proyect.urlCode}
           description={proyect.description}
           path={proyect.path}
         />)

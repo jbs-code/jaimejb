@@ -40,7 +40,7 @@ function AboutMe() {
       <article className='card'>
         <p className='card-p--border-l'>Me encantan esas cosas que aparentan una simplicidad, pero que tienen una complejidad que pasa muchas veces desapercibida. Me he pasado horas en internet viendo videos de relojes con mecanismos complejos o sobre proyectos de arquitectura donde resaltan los retos por el terreno, materiales utilizados o el clima de la zona.</p>
         <div className='card-container__img'>
-          <video src={img('./videos/reloj.webm')} autoPlay loop>
+          <video src={img('./videos/reloj.mp4')} autoPlay loop>
             Tu navegador no admite el elemento <code>video</code>.
           </video>
         </div>
@@ -48,7 +48,7 @@ function AboutMe() {
 
       <article className='card'>
         <div className='card-container__img'>
-          <video src={img('./videos/coding.webm')} autoPlay loop>
+          <video src={img('./videos/coding.mp4')} autoPlay loop>
             Tu navegador no admite el elemento <code>video</code>.
           </video>
         </div>
