@@ -5,6 +5,15 @@ export const proyects = {
     proyectsArray: [
         {
             id: '00',
+            name: 'Cuvi',
+            urlSite: 'https://cuvi.jaimejb.com/',
+            urlCode:'https://github.com/jbs-code/cuvi',
+            description: 'La función de esta aplicación es crear un currículum con una plantilla sencilla; lo único que tienes que hacer es llenar el formulario y de inmediato podrás tener una vista de tu currículum, incluso podrás descargarlo en PDF. Esta aplicación esta hecha con React y TypeScript.',
+            path: img('./cuvi.png')
+        },
+
+        {
+            id: '01',
             name: 'F1 App',
             urlSite: 'https://f1-app.jaimejb.com/',
             urlCode:'https://github.com/jbs-code/f1-app',
@@ -13,7 +22,7 @@ export const proyects = {
         },
 
         {
-            id: '01',
+            id: '02',
             name: 'Marvel App',
             urlSite: 'https://marvel-app.jaimejb.com/',
             urlCode:'https://github.com/jbs-code/marvel-app',
@@ -22,7 +31,7 @@ export const proyects = {
         },
 
         {
-            id: '02',
+            id: '03',
             name: 'Mouse Escape',
             urlSite: 'https://mouse-escape.jaimejb.com/',
             urlCode:'https://github.com/jbs-code/mouse-scape',
@@ -31,7 +40,7 @@ export const proyects = {
         },
 
         {
-            id: '03',
+            id: '04',
             name: 'Méjico',
             urlSite: 'https://mejico.jaimejb.com/',
             urlCode:'https://github.com/jbs-code/mejico-app',
@@ -40,7 +49,7 @@ export const proyects = {
         },
 
         {
-            id: '04',
+            id: '05',
             name: 'API-Méjico',
             urlSite: 'https://api-mejico.jaimejb.com/',
             urlCode:'https://github.com/jbs-code/api-mejico-ts',

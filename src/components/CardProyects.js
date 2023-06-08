@@ -13,12 +13,12 @@ function CardProyects({ name, urlSite, urlCode, description, path }) {
                             href={urlSite}
                             target='_blank'
                             rel='noopener noreferrer'
-                        >Ver sitio</a>
+                        >Online</a>
                         <a
                             href={urlCode}
                             target='_blank'
                             rel='noopener noreferrer'
-                        >Ver código</a>
+                        >GitHub</a>
                     </div>
                 </div>
             </div>
