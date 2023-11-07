@@ -1,13 +1,15 @@
-import React, { useEffect } from "react";
 import { gsapHome } from "../../scripts/gsapEffects";
 import DOMPurify from "dompurify";
 import { icons } from "../../assets/icons/icons";
+import { useLayoutEffect } from "react";
 
 const img = require.context("../../assets/img");
 
 function Home() {
-  useEffect(() => {
-    gsapHome();
+  useLayoutEffect(() => {
+    const ctx = gsapHome();
+
+    return () => ctx.revert();
   }, []);
 
   return (

@@ -1,13 +1,14 @@
-import React, { useEffect } from "react";
 import { gsapCard } from "../../scripts/gsapEffects";
 import { skillsList } from "../../skillsList/skillsList";
 import DOMPurify from "dompurify";
+import { useLayoutEffect } from "react";
 
 const doc = require.context("../../assets/docs");
 
 function Skills() {
-  useEffect(() => {
-    gsapCard();
+  useLayoutEffect(() => {
+    const ctx = gsapCard();
+    return () => ctx.revert();
   }, []);
 
   return (

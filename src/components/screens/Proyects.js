@@ -1,22 +1,22 @@
-import React, { useEffect } from 'react';
-import { gsapCard } from '../../scripts/gsapEffects';
-import { proyects } from '../../ProyectsList/proyects';
-import CardProyects from '../CardProyects';
+import { gsapCard } from "../../scripts/gsapEffects";
+import { proyects } from "../../ProyectsList/proyects";
+import CardProyects from "../CardProyects";
+import { useLayoutEffect } from "react";
 
 function Proyects() {
-
   //Obtenemos la lista de proyectos
   const proyectos = proyects.proyectsArray;
 
-  useEffect(() => {
-    gsapCard();
+  useLayoutEffect(() => {
+    const ctx = gsapCard();
+    return () => ctx.revert();
   }, []);
 
-  return <div className='proyects'>
-    <h1 className='text-shadow'>Proyectos</h1>
+  return (
+    <div className="proyects">
+      <h1 className="text-shadow">Proyectos</h1>
 
-    {
-      proyectos.map(proyect =>
+      {proyectos.map((proyect) => (
         <CardProyects
           key={proyect.id}
           name={proyect.name}
@@ -24,10 +24,10 @@ function Proyects() {
           urlCode={proyect.urlCode}
           description={proyect.description}
           path={proyect.path}
-        />)
-    }
-
-  </div>;
+        />
+      ))}
+    </div>
+  );
 }
 
 export default Proyects;
