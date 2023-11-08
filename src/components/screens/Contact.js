@@ -71,71 +71,72 @@ function Contact() {
   return (
     <div className="contact">
       <h1 className="text-shadow">Contacto</h1>
-
-      <div className="card">
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <input
-            name="name"
-            type="text"
-            className="contact-form__input-text"
-            placeholder="Nombre"
-            onChange={handleInputChange}
-            value={name}
-            disabled={emailOk}
-          />
-
-          <input
-            name="email"
-            type="email"
-            className="contact-form__input-text"
-            placeholder="Correo"
-            onChange={handleInputChange}
-            value={email}
-            disabled={emailOk}
-          />
-
-          <textarea
-            name="message"
-            className="contact-form__input-text"
-            placeholder="Mensaje"
-            onChange={handleInputChange}
-            value={message}
-            disabled={emailOk}
-          />
-
-          {!isCorrect && (
-            <label className="contact-form__label contact-form__label--error text-shadow">
-              {note}
-            </label>
-          )}
-          {emailError && (
-            <label className="contact-form__label contact-form__label--error text-shadow">
-              No se pudo mandar el mensaje, intentalo más tarde
-            </label>
-          )}
-          {emailOk && (
-            <label className="contact-form__label contact-form__label--info">
-              Su mensaje se envió correctamente
-            </label>
-          )}
-          {emailOk ? (
+      <main className="main-container">
+        <div className="card">
+          <form className="contact-form" onSubmit={handleSubmit}>
             <input
-              type="button"
-              className="btn btn-primary text-shadow"
-              onClick={handleOk}
-              value="OK"
+              name="name"
+              type="text"
+              className="contact-form__input-text"
+              placeholder="Nombre"
+              onChange={handleInputChange}
+              value={name}
+              disabled={emailOk}
             />
-          ) : (
-            <button
-              className="btn btn-primary text-shadow"
-              type="submit"
-              disabled={disabled}
-            >
-              Enviar
-            </button>
-          )}
-        </form>
-      </div>
+
+            <input
+              name="email"
+              type="email"
+              className="contact-form__input-text"
+              placeholder="Correo"
+              onChange={handleInputChange}
+              value={email}
+              disabled={emailOk}
+            />
+
+            <textarea
+              name="message"
+              className="contact-form__input-text"
+              placeholder="Mensaje"
+              onChange={handleInputChange}
+              value={message}
+              disabled={emailOk}
+            />
+
+            {!isCorrect && (
+              <label className="contact-form__label contact-form__label--error text-shadow">
+                {note}
+              </label>
+            )}
+            {emailError && (
+              <label className="contact-form__label contact-form__label--error text-shadow">
+                No se pudo mandar el mensaje, intentalo más tarde
+              </label>
+            )}
+            {emailOk && (
+              <label className="contact-form__label contact-form__label--info">
+                Su mensaje se envió correctamente
+              </label>
+            )}
+            {emailOk ? (
+              <input
+                type="button"
+                className="btn btn-primary text-shadow"
+                onClick={handleOk}
+                value="OK"
+              />
+            ) : (
+              <button
+                className="btn btn-primary text-shadow"
+                type="submit"
+                disabled={disabled}
+              >
+                Enviar
+              </button>
+            )}
+          </form>
+        </div>
+      </main>
     </div>
   );
 }
