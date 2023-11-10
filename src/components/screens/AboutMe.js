@@ -18,50 +18,60 @@ function AboutMe() {
           <img src={img("./img/jaime.jpg")} alt="Foto de Jaime" />
         </div>
         <p className="card-p--border-r">
-          <span>Hola, soy Jaime.</span>Te voy a contar un poco sobre mí. Crecí
-          en una comunidad rural en donde he aprendido a apreciar el silencio y
-          la tranquilidad. Conservo a varios amigos de la infancia, me alegran
-          sus éxitos y disfruto cada oportunidad en la que puedo platicar con
-          ellos.
+          <span>Hola, mi nombre es Jaime Barranco Sánchez</span> y me gusta el
+          desarrollo web. Llevo más de un año trabajando en proyectos personales
+          para mejorar mis habilidades de programador y he tomado distintos
+          cursos que me han servido para generar confianza y tomar nuevos
+          desafíos.
         </p>
       </article>
 
       <article className="card">
         <p className="card-p--border-l">
-          Me gusta por las mañanas salir a caminar con mis perros y disfrutar
-          del paisaje y las diferentes vistas que me da cada estación del año
-          (Aquí Jaime del futuro, actualmente solo me acompaña Yogui. Max, el
-          pastor que sale en la foto, falleció en mayo del 2022 y quise hacer
-          esta actualización en su memoria).
+          Soy ingeniero en computación y durante mi carrera pude comprender las
+          bases de distintos ámbitos relacionados a TI; sin embargo, en la
+          programación fue donde encontré la satisfacción por las cosas que se
+          podían lograr únicamente con una computadora. Y dada la manera en cómo
+          se mueve el mundo a través de la web, vi una gran oportunidad de
+          desarrollo profesional.
         </p>
         <div className="card-container__img">
-          <img src={img("./img/perros.png")} alt="Foto de perros" />
+          <img src={img("./img/titulo.jpg")} alt="Foto de perros" />
         </div>
       </article>
 
       <article className="card">
         <p className="card-p--alone">
-          Confieso que mi circulo de amigos es pequeño. Suelo ser muy reservado
-          y me cuesta trabajo entablar conversación, aunque soy muy bueno
-          escuchando. Es una de las virtudes que mis conocidos destacan de mí,
-          he sido el confidente de muchos porque saben de mi gran discreción.
-          Tal vez no tenga un buen consejo que dar, pero con solo escuchar
-          parece que ayudo para el desahogo y tranquilidad de mis amigos.
+          Tengo como meta seguir especializándome en las distintas tecnologías y
+          herramientas relacionadas a la web, además de mejorar mis habilidades
+          sociales para que en conjunto me ayuden a adquirir un mayor nivel de
+          seniority.
         </p>
       </article>
 
       <article className="card">
         <div className="card-container__img">
-          <img src={img("./img/tyre.jpg")} alt="Foto de F1" />
+          <img src={img("./img/perros.png")} alt="Foto de F1" />
         </div>
         <p className="card-p--border-r">
-          Me gustan los deportes, aunque tiene tiempo que no practico ninguno
-          (es una de las cosas que me cuesta mucho recuperar y que extraño de mi
-          adolescencia). Me gusta el futbol desde niño, pero desde hace algunos
-          años me he interesado mucho por la Fórmula 1. Como ingeniero me llamó
-          demasiado la atención la parte técnica y estratégica de las carreras,
-          es una locura ver la cantidad de personas involucradas en cada carrera
-          para que un auto esté a punto frente a su competencia.
+          <span>Un poco de mi lado personal.</span> Crecí en una comunidad rural
+          en donde he aprendido a apreciar el silencio y la tranquilidad. Me
+          gusta por las mañanas salir a caminar con mis perros y disfrutar del
+          paisaje y las diferentes vistas que me da cada estación del año (Aquí
+          Jaime del futuro, actualmente solo me acompaña Yogui. Max, el pastor
+          que sale en la foto, falleció en mayo del 2022 y quise hacer esta
+          actualización en su memoria).
+        </p>
+      </article>
+
+      <article className="card">
+        <p className="card-p--alone">
+          Confieso que mi círculo de amigos es pequeño. Suelo ser muy reservado
+          y me cuesta trabajo entablar conversación, aunque soy muy bueno
+          escuchando. Es una de las virtudes que mis conocidos destacan de mí,
+          he sido el confidente de muchos porque saben de mi gran discreción.
+          Tal vez no tenga un buen consejo que dar, pero con solo escuchar
+          parece que ayudo para el desahogo y tranquilidad de mis amigos.
         </p>
       </article>
 
@@ -96,9 +106,7 @@ function AboutMe() {
 
       <article className="card mb-3">
         <p className="card-p--alone">
-          Ojalá esto que acabo de escribir sirva para conocerme un poco mejor;
-          gracias por llegar hasta aquí y mostrar interés en conocer un poco más
-          sobre mi lado personal.
+          Ojalá esto que acabo de escribir sirva para conocerme un poco mejor. Gracias por llegar hasta aquí 😊.
         </p>
       </article>
     </div>
