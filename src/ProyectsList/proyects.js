@@ -39,22 +39,22 @@ export const proyects = {
             path: img('./mouse-escape.png')
         },
 
-        {
-            id: '04',
-            name: 'Méjico',
-            urlSite: 'https://mejico.jaimejb.com/',
-            urlCode:'https://github.com/jbs-code/mejico-app',
-            description: 'Esta aplicación simula el menú para un restaurante mexicano; además, consume la API-Méjico que también yo desarrollé. Dado que la API está en un host con limitaciones, es posible que esta aplicación no funcione correctamente.',
-            path: img('./mejicoApp.png')
-        },
+        // {
+        //     id: '04',
+        //     name: 'Méjico',
+        //     urlSite: 'https://mejico.jaimejb.com/',
+        //     urlCode:'https://github.com/jbs-code/mejico-app',
+        //     description: 'Esta aplicación simula el menú para un restaurante mexicano; además, consume la API-Méjico que también yo desarrollé. Dado que la API está en un host con limitaciones, es posible que esta aplicación no funcione correctamente.',
+        //     path: img('./mejicoApp.png')
+        // },
 
-        {
-            id: '05',
-            name: 'API-Méjico',
-            urlSite: 'https://api-mejico.jaimejb.com/',
-            urlCode:'https://github.com/jbs-code/api-mejico-ts',
-            description: 'Esta es una API que desarrollé con Node.JS, Express, MongoDB y TypeScript. Guarda diferentes platillos que se podrían encontrar en algún restaurante mexicano. Las diferentes formas de consultar esos platillos es a través de los endpoints que se describen en el home de la API. Esta aplicación está en un host con restricciones y no está en línea permanentemente, así que es posible que no esté disponible.',
-            path: img('./api-mejico.png')
-        }
+        // {
+        //     id: '05',
+        //     name: 'API-Méjico',
+        //     urlSite: 'https://api-mejico.jaimejb.com/',
+        //     urlCode:'https://github.com/jbs-code/api-mejico-ts',
+        //     description: 'Esta es una API que desarrollé con Node.JS, Express, MongoDB y TypeScript. Guarda diferentes platillos que se podrían encontrar en algún restaurante mexicano. Las diferentes formas de consultar esos platillos es a través de los endpoints que se describen en el home de la API. Esta aplicación está en un host con restricciones y no está en línea permanentemente, así que es posible que no esté disponible.',
+        //     path: img('./api-mejico.png')
+        // }
     ]
 }
