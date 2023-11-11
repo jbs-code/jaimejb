@@ -18,9 +18,9 @@ function AboutMe() {
           <img src={img("./img/jaime.jpg")} alt="Foto de Jaime" />
         </div>
         <p className="card-p--border-r">
-          <span>Hola, mi nombre es Jaime Barranco Sánchez</span> y me gusta el
-          desarrollo web. Llevo más de un año trabajando en proyectos personales
-          para mejorar mis habilidades de programador y he tomado distintos
+          <span>Hola, mi nombre es Jaime Barranco Sánchez</span> y soy
+          programador. Llevo más de un año trabajando en proyectos personales
+          para mejorar mis habilidades técnicas y he tomado distintos
           cursos que me han servido para generar confianza y tomar nuevos
           desafíos.
         </p>
@@ -106,7 +106,8 @@ function AboutMe() {
 
       <article className="card mb-3">
         <p className="card-p--alone">
-          Ojalá esto que acabo de escribir sirva para conocerme un poco mejor. Gracias por llegar hasta aquí 😊.
+          Ojalá esto que acabo de escribir sirva para conocerme un poco mejor.
+          Gracias por llegar hasta aquí 😊.
         </p>
       </article>
     </div>
