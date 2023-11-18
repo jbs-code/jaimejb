@@ -5,12 +5,14 @@
 
     .container-2 {
         width: 90%;
+        min-height: 85vh;
         padding: 0px;
     }
 
     .nav-container {
         width: 100%;
         height: 10vh;
+        padding: 0px;
     }
 
     .nav__bars-menu {
@@ -18,7 +20,7 @@
     }
 
     .nav {
-        height: inherit;
+        height: 100%;
         width: inherit;
         align-items: flex-start;
         justify-content: center;
@@ -29,6 +31,7 @@
     .nav-ul {
         top: 10vh;
         width: 30%;
+        height: 40vh;
         padding: 0px 20px 0px 20px;
         background-color: darken($color: $color-primary, $amount: 10);
         border-radius: 0px 0px 2px 2px;
@@ -93,5 +96,6 @@
 
     .nav-ul {
         top: 13vh;
+        height: 60vh;
     }
 }

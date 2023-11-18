@@ -14,13 +14,16 @@ body, html{
 }
 
 .container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     padding: 0px 20px;
+    min-height: 95vh;
 }
 
 .main-container{
     display: flex;
-    height: 80vh;
     align-items: center;
 }
 
