@@ -19,9 +19,9 @@ function AboutMe() {
         </div>
         <p className="card-p--border-r">
           <span>Hola, mi nombre es Jaime Barranco Sánchez</span> y soy
-          programador. Llevo más de un año trabajando en proyectos personales
+          programador. He estado trabajando en diferentes proyectos personales
           para mejorar mis habilidades técnicas y he tomado distintos
-          cursos que me han servido para generar confianza y tomar nuevos
+          cursos que me han servido para tener una mayor confianza y tomar nuevos
           desafíos.
         </p>
       </article>
@@ -29,7 +29,7 @@ function AboutMe() {
       <article className="card">
         <p className="card-p--border-l">
           Soy ingeniero en computación y durante mi carrera pude comprender las
-          bases de distintos ámbitos relacionados a TI; sin embargo, en la
+          bases de distintas áreas relacionadas a TI; sin embargo, en la
           programación fue donde encontré la satisfacción por las cosas que se
           podían lograr únicamente con una computadora. Y dada la manera en cómo
           se mueve el mundo a través de la web, vi una gran oportunidad de
@@ -77,14 +77,14 @@ function AboutMe() {
 
       <article className="card">
         <p className="card-p--border-l">
-          Me encantan esas cosas que aparentan una simplicidad, pero que tienen
+          Me encantan esas cosas que son aparentemente simples, pero que tienen
           una complejidad que pasa muchas veces desapercibida. Me he pasado
           horas en internet viendo videos de relojes con mecanismos complejos o
           sobre proyectos de arquitectura donde resaltan los retos por el
           terreno, materiales utilizados o el clima de la zona.
         </p>
         <div className="card-container__img">
-          <video src={img("./videos/reloj.mp4")} autoPlay loop>
+          <video src={img("./videos/reloj.mp4")} autoPlay loop muted>
             Tu navegador no admite el elemento <code>video</code>.
           </video>
         </div>
@@ -92,7 +92,7 @@ function AboutMe() {
 
       <article className="card">
         <div className="card-container__img">
-          <video src={img("./videos/coding.mp4")} autoPlay loop>
+          <video src={img("./videos/coding.mp4")} autoPlay loop muted>
             Tu navegador no admite el elemento <code>video</code>.
           </video>
         </div>
