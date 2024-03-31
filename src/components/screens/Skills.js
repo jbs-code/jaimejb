@@ -44,7 +44,7 @@ function Skills() {
             })}
           </section>
           <a
-            href={doc("./cv.pdf")}
+            href={doc("./jaimejb-cv.pdf")}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary text-shadow mt-2"
