@@ -12,14 +12,22 @@ export const proyects = {
       path: img("./cuvi.png"),
     },
 
+    // {
+    //   id: "01",
+    //   name: "F1 App",
+    //   urlSite: "https://f1-app.jaimejb.com/",
+    //   urlCode: "https://github.com/jbs-code/f1-app",
+    //   description:
+    //     "Aplicación que despliega una tabla con el campeonato de pilotos de la Fórmula 1. Muestra los datos de la temporada actual y de años anteriores, además del campeonato de constructores. Esta aplicación consigue los datos de la Ergast Developer API y está construida con React.",
+    //   path: img("./f1App.png"),
+    // },
     {
       id: "01",
-      name: "F1 App",
-      urlSite: "https://f1-app.jaimejb.com/",
-      urlCode: "https://github.com/jbs-code/f1-app",
-      description:
-        "Aplicación que despliega una tabla con el campeonato de pilotos de la Fórmula 1. Muestra los datos de la temporada actual y de años anteriores, además del campeonato de constructores. Esta aplicación consigue los datos de la Ergast Developer API y está construida con React.",
-      path: img("./f1App.png"),
+      name: "Virtual Hug",
+      urlSite: "https://virtualhug.jaimejb.com/",
+      urlCode: "https://github.com/jbs-code/virtual-hug",
+      description: "Esta App tiene como fin poder enviar por email un abrazo virtual a alguien que queramos. En la página principal encontraremos un formulario, y conforme lo llenemos, tendremos a disposición una vista previa de nuestro saludo. En su email recibirá un link donde podrá obtener su abrazo virtual.",
+      path: img("./virtual-hug.png"),
     },
 
     // {
